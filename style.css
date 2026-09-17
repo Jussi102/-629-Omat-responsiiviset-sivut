@@ -7,29 +7,55 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: rgb(78, 67, 67);
+    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    text-shadow: 0 5px 5px rgba(255,255,255,0.15);
+    font-style:italic;
 
     background: linear-gradient(
         135deg,
-        rgba(213, 230, 121, 0.795),
-        rgba(118, 133, 32, 0.795),
-        rgba(213, 230, 121, 0.795)
+        rgb(2, 172, 235),
+        rgb(252, 20, 128)
     );
 }
 
 header{
+    padding-top: 30px;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     margin: 0;
     width: 100%;
     background-color: rgb(191, 221, 248);
-    border: 1.5px solid gray;
-    border-radius: 27px;
+    border: 1px transparent white;
+    border-radius: 20px;
+    border-color: rgb(252, 20, 128) ;
+    box-shadow: 0 1px 10px rgb(2, 172, 235);
     text-align: center;
 }
+
+
+
+footer {
+    font-size: 1em;
+    color: white;
+    background-color: rgb(191, 221, 248);
+    text-align:center;
+    border: 1px transparent white;
+    border-color: rgb(252, 20, 128) ;
+    box-shadow: 0 1px 10px rgb(2, 172, 235);
+    border-radius: 23px;
+    border-bottom: 5px;
+    margin: 0;
+    margin-top: auto;
+    padding: 5px;
+    font-style:italic;
+}
+
+
+
+
 
 header h1 {
     color: red;
@@ -39,15 +65,23 @@ header h1 {
 
 .tietoa {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 .tietoa a {
-    color: rgb(78, 67, 67);
+    color: white;
     text-decoration: none;
     font-size: 1.4em;
     margin: 0;
     padding: 2px;
+    transition: 1s;
+}
+
+.tietoa a:hover {
+    margin-left: 3px;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .tietoa img {
@@ -67,22 +101,23 @@ header h1 {
     margin-top: 20px;
     background-color: rgb(191, 221, 248);
     padding: 20px;
-    border: 1px solid black;
+    border: 1px transparent white;
     border-radius: 25px;
     width: 600px;
     height: 110px;
     overflow: hidden;
     text-align: center;
     font-size: 1.4em;
-    color: black;
-    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    color: white;
+    border-color: rgb(252, 20, 128) ;
+    box-shadow: 0 1px 10px rgb(2, 172, 235);
     display:flex;
     flex-direction: column;
     transition: 1s;
 }
 
 .laatikko1:hover {
-    height: 420px;
+    height: 500px;
     transition: 1s;
 }
 
@@ -91,22 +126,23 @@ header h1 {
     margin-top: 20px;
     background-color: rgb(191, 221, 248);
     padding: 20px;
-    border: 1px solid black;
+    border: 1px transparent white;
     border-radius: 25px;
     width: 600px;
     height: 110px;
     overflow: hidden;
     text-align: center;
     font-size: 1.4em;
-    color: black;
-    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    color: white;
+    border-color: rgb(252, 20, 128) ;
+    box-shadow: 0 1px 10px rgb(2, 172, 235);
     display:flex;
     flex-direction: column;
     transition: 1s;
 }
 
 .laatikko2:hover {
-    height: 700px;
+    height: 800px;
     width: 1200px;
     transition: 1s;
 
@@ -117,7 +153,7 @@ header h1 {
     margin-top: 20px;
     background-color: rgb(191, 221, 248);
     padding: 20px;
-    border: 1px solid black;
+    border: 1px transparent white;
     border-radius: 25px;
     width: 600px;
     height: 110px;
@@ -125,7 +161,8 @@ header h1 {
     text-align: center;
     font-size: 1.4em;
     color: black;
-    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    border-color: rgb(255, 255, 255) ;
+    box-shadow: 0 1px 10px rgb(2, 172, 235);
     display:flex;
     flex-direction: column;
     transition: 1s;
@@ -142,8 +179,8 @@ header h1 {
 .laatikko2 img {
     align-self: center;
     margin-top: auto;
-    height: 150px;
-    width: 300px;
+    height: 250px;
+    width: 450px;
     border-radius: 20px;
 }
 
@@ -156,19 +193,19 @@ header h1 {
 .teksti {
     text-decoration: none;
     font-size: 1em;
-    color: rgb(78, 67, 67);
+    color: #172554;
+    font-weight: 400;
+    letter-spacing: 0,02em;
+
 
 }
 
-footer {
-    font-size: 1.3em;
-    color: rgb(78, 67, 67);
-    background-color: rgb(191, 221, 248);
-    text-align: center;
-    border-block: 1px solid black;
-    border-radius: 23px;
-    border-bottom: 5px;
-    margin-top: auto;
-    padding: 5px;
+
+
+.otsikot {
+    text-decoration: underline;
+    color:white;
 }
+
+
 
