@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    color: rgb(78, 67, 67);
+    text-transform: capitalize;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.363);
+    width: 100%;
+
+}
+
+header h1 {
+    text-align: top;
+}
+
+
+
+.tietoa {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tietoa a {
+    color: rgb(81, 175, 179);
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 2px;
+}
+
+.tietoa img {
+    width: 50px;
+    height: auto;
+}
