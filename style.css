@@ -1,43 +1,174 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
+
+
+
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: rgb(78, 67, 67);
-    text-transform: capitalize;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(
+        135deg,
+        rgba(213, 230, 121, 0.795),
+        rgba(118, 133, 32, 0.795),
+        rgba(213, 230, 121, 0.795)
+    );
 }
 
 header{
     background-color: white;
     padding: 20px;
     margin: 0;
-    background-color: rgba(128, 128, 128, 0.363);
     width: 100%;
-
+    background-color: rgb(191, 221, 248);
+    border: 1.5px solid gray;
+    border-radius: 27px;
+    text-align: center;
 }
 
 header h1 {
-    text-align: top;
+    color: red;
 }
 
 
 
 .tietoa {
     display: flex;
-    align-items: center;
     gap: 5px;
 }
 
 .tietoa a {
-    color: rgb(81, 175, 179);
+    color: rgb(78, 67, 67);
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 0;
     padding: 2px;
 }
 
 .tietoa img {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
+
+
+
+.laatikot {
+    display: flex;
+    gap: 20px;
+}
+
+
+.laatikko1 {
+    margin-top: 20px;
+    background-color: rgb(191, 221, 248);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 600px;
+    height: 110px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    display:flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.laatikko1:hover {
+    height: 420px;
+    transition: 1s;
+}
+
+
+.laatikko2 {
+    margin-top: 20px;
+    background-color: rgb(191, 221, 248);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 600px;
+    height: 110px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    display:flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.laatikko2:hover {
+    height: 700px;
+    width: 1200px;
+    transition: 1s;
+
+}
+
+
+.laatikko3 {
+    margin-top: 20px;
+    background-color: rgb(191, 221, 248);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 600px;
+    height: 110px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    box-shadow: 0 3px 10px rgb(243, 227, 243);
+    display:flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.laatikko3:hover {
+    height: 700px;
+    width: 1200px;
+    transition: 1s;
+
+}
+
+
+.laatikko2 img {
+    align-self: center;
+    margin-top: auto;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.teksti {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(78, 67, 67);
+
+}
+
+footer {
+    font-size: 1.3em;
+    color: rgb(78, 67, 67);
+    background-color: rgb(191, 221, 248);
+    text-align: center;
+    border-block: 1px solid black;
+    border-radius: 23px;
+    border-bottom: 5px;
+    margin-top: auto;
+    padding: 5px;
+}
+
