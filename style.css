@@ -1,268 +1,334 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
 
-
-
-
 body {
-    font-family: "Montserrat", sans-serif;
-    color:white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    text-shadow: 0 10px 10px rgba(255,255,255,0.15);
-    font-style:italic;
-    font-size: .8em;
+font-family: "Montserrat", sans-serif;
+color: white;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+text-shadow: 0 10px 10px rgba(255,255,255,0.15);
+font-style: italic;
+font-size: .8em;
 
 
+background:
+    linear-gradient(120deg, #087ca5, #b00068);
+background-attachment: fixed;
 
-     background:
-        linear-gradient(120deg, #087ca5, #b00068);
-    background-attachment: fixed;
+
 }
 
-header{
-    padding-top: 30px;
-    background-color: white;
-    margin: 0;
-    width: 100%;
-    background-color: rgb(191, 221, 248);
-    border: 1px transparent white;
-    border-radius: 40px;
-    border-color: rgb(252, 20, 128) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    text-align: center;
-    height: 70px;
-    padding: 15px 20px;
+header {
+padding-top: 30px;
+background-color: white;
+margin: 0;
+width: 100%;
+background-color: rgb(191, 221, 248);
+border: 1px transparent white;
+border-radius: 40px;
+border-color: rgb(252, 20, 128);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+text-align: center;
+height: 70px;
+padding: 15px 20px;
 }
-
-
 
 footer {
-    font-size: 1em;
-    color: #172554;
-    background-color: rgb(191, 221, 248);
-    text-align:center;
-    border: 1px transparent white;
-    border-color: rgb(252, 20, 128) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    border-radius: 23px;
-    border-bottom: 5px;
-    margin: 0;
-    margin-top: auto;
+font-size: 1em;
+color: #172554;
+background-color: rgb(191, 221, 248);
+text-align: center;
+border: 1px transparent white;
+border-color: rgb(252, 20, 128);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+border-radius: 23px;
+border-bottom: 5px;
+margin: 0;
+margin-top: auto;
 
-    font-style:italic;
-    height: 60px;
-    padding: 15px 20px;
+font-style: italic;
+height: 60px;
+padding: 15px 20px;
+
+
 }
 
 footer img {
-    height: 0px;
-    width: 0px;
-    align-self:baseline;
-    border: 1px transparent white;
-    border-color: rgb(252, 20, 128) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    border-radius: 23px;
-    border-bottom: 5px;
-    margin: 0;
-    padding: 0px;
-
+height: 0px;
+width: 0px;
+align-self: baseline;
+border: 1px transparent white;
+border-color: rgb(252, 20, 128);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+border-radius: 23px;
+border-bottom: 5px;
+margin: 0;
+padding: 0px;
 }
-
-
-
 
 header h1 {
-    color: red;
+color: red;
 }
 
-
-
 .tietoa {
-    display: flex;
-    gap: 10px;
+display: flex;
+gap: 10px;
 }
 
 .tietoa a {
-    color: #172554;
-    text-decoration: none;
-    font-size: 1.4em;
-    margin: 0;
-    padding: 2px;
-    transition: 1s;
-    margin: 4px;;
+color: #172554;
+text-decoration: none;
+font-size: 1.4em;
+margin: 4px;
+padding: 2px;
+transition: 1s;
 }
 
 .tietoa a:hover {
-    margin-left: 5px;
-    text-decoration: underline;
-    transform: scale(1.1);
-    transition: 1s;
+margin-left: 5px;
+text-decoration: underline;
+transform: scale(1.1);
+transition: 1s;
 }
 
 .tietoa img {
-    width: 40px;
+width: 40px;
+height: auto;
+}
+
+.laatikot {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.laatikko1 {
+margin-top: 20px;
+background-color: rgb(191, 221, 248);
+padding: 20px;
+border: 1px transparent white;
+border-radius: 40px;
+width: 100%;
+max-width: 600px;
+box-sizing: border-box;
+height: 110px;
+overflow: hidden;
+text-align: center;
+font-size: 1.4em;
+color: white;
+border-color: rgb(252, 20, 128);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+display: flex;
+flex-direction: column;
+transition: 1s;
+}
+
+.laatikko2 {
+margin-top: 20px;
+background-color: rgb(191, 221, 248);
+padding: 20px;
+border: 1px transparent white;
+border-radius: 40px;
+width: 100%;
+max-width: 600px;
+box-sizing: border-box;
+height: 110px;
+overflow: hidden;
+text-align: center;
+font-size: 1.4em;
+color: white;
+border-color: rgb(252, 20, 128);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+display: flex;
+flex-direction: column;
+transition: 1s;
+}
+
+.laatikko2:hover {
+height: 600px;
+width: 1200px;
+transition: 1s;
+}
+
+.laatikko3 {
+margin-top: 20px;
+background-color: rgb(191, 221, 248);
+padding: 20px;
+border: 1px transparent white;
+border-radius: 40px;
+width: 100%;
+max-width: 600px;
+box-sizing: border-box;
+height: 110px;
+overflow: hidden;
+text-align: center;
+font-size: 1.4em;
+color: black;
+border-color: rgb(255, 255, 255);
+box-shadow: 0 1px 3px rgb(2, 172, 235);
+display: flex;
+flex-direction: column;
+transition: 1s;
+}
+
+.laatikko3:hover {
+height: 420px;
+width: 1200px;
+transition: 1s;
+}
+
+.laatikko2 img {
+align-self: center;
+margin-top: auto;
+height: 150px;
+width: 300px;
+border-radius: 20px;
+}
+
+.teksti {
+text-decoration: none;
+font-size: 1em;
+color: #172554;
+font-weight: 400;
+letter-spacing: 0.02em;
+}
+
+.otsikot {
+text-decoration: underline;
+color: #172554;
+}
+
+.sivun-taustat {
+position: fixed;
+top: 50%;
+left: 0;
+width: 100%;
+transform: translateY(-40%);
+display: flex;
+justify-content: space-between;
+z-index: 1;
+}
+
+.vasen_kuva img,
+.oikea_kuva img {
+width: 900px;
+height: auto;
+border-radius: 50px;
+box-shadow: 0 2px 8px rgb(2, 172, 235);
+transition: transform 0.5s ease;
+}
+
+.vasen_kuva img:hover,
+.oikea_kuva img:hover {
+transform: translateY(-15px);
+}
+
+.vasen_kuva {
+margin-left: 20px;
+}
+
+.oikea_kuva {
+margin-right: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+
+body {
+    font-size: 0.8em;
+    overflow-x: hidden;
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+
+.tietoa {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tietoa img {
+    width: 30px;
+}
+
+
+.tietoa a {
+    font-size: 1.1em;
+}
+
+
+
+
+.laatikot {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.laatikko1,
+.laatikko2,
+.laatikko3 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 110px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+
+
+.laatikko2:hover,
+.laatikko3:hover {
+    width: 100%;
     height: auto;
 }
 
 
 
-.laatikot {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.laatikko1 {
-    margin-top: 20px;
-    background-color: rgb(191, 221, 248);
-    padding: 20px;
-    border: 1px transparent white;
-    border-radius: 40px;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-    height: 110px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 1.4em;
-    color: white;
-    border-color: rgb(252, 20, 128) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    display:flex;
-    flex-direction: column;
-    transition: 1s;
-}
-
-.laatikko1:hover {
-    height: 250px;
-    transition: 1s;
-}
-
-
-.laatikko2 {
-    margin-top: 20px;
-    background-color: rgb(191, 221, 248);
-    padding: 20px;
-    border: 1px transparent white;
-    border-radius: 40px;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-    height: 110px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 1.4em;
-    color: white;
-    border-color: rgb(252, 20, 128) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    display:flex;
-    flex-direction: column;
-    transition: 1s;
-}
-
-.laatikko2:hover {
-    height: 600px;
-    width: 1200px;
-    transition: 1s;
-
-}
-
-
-.laatikko3 {
-    margin-top: 20px;
-    background-color: rgb(191, 221, 248);
-    padding: 20px;
-    border: 1px transparent white;
-    border-radius: 40px;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-    height: 110px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 1.4em;
-    color: black;
-    border-color: rgb(255, 255, 255) ;
-    box-shadow: 0 1px 3px rgb(2, 172, 235);
-    display:flex;
-    flex-direction: column;
-    transition: 1s;
-}
-
-.laatikko3:hover {
-    height: 420px;
-    width: 1200px;
-    transition: 1s;
-
-}
-
 
 .laatikko2 img {
-    align-self: center;
-    margin-top: auto;
-    height: 150px;
-    width: 300px;
-    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 15px auto 0;
 }
-
-
-
 
 
 
 
 .teksti {
-    text-decoration: none;
-    font-size: 1em;
-    color: #172554;
-    font-weight: 400;
-    letter-spacing: 0,02em;
-
-
+    font-size: 0.95em;
 }
 
 
 
-.otsikot {
-    text-decoration: underline;
-    color: #172554;
+
+footer {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    box-sizing:border-box;
+    padding: 15px 10px;
+    border-radius: 20px;
 }
 
 
 .sivun-taustat {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-40%);
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    
+    display: none;
 }
 
-.vasen_kuva img,
-.oikea_kuva img {
-    width: 900px;
-    height: auto;
-    border-radius: 50px;
-    box-shadow: 0 2px 8px rgb(2, 172, 235);
-    transition: transform 0.5s ease;
-}
-
-.vasen_kuva img:hover,
-.oikea_kuva img:hover {
-    transform: translateY(-15px);
-}
-
-.vasen_kuva {
-    margin-left: 20px;
-}
-
-.oikea_kuva {
-    margin-right: 20px;
 }
