@@ -25,7 +25,6 @@ body {
 header{
     padding-top: 30px;
     background-color: white;
-    padding: 30px;
     margin: 0;
     width: 100%;
     background-color: rgb(191, 221, 248);
@@ -34,6 +33,8 @@ header{
     border-color: rgb(252, 20, 128) ;
     box-shadow: 0 1px 3px rgb(2, 172, 235);
     text-align: center;
+    height: 70px;
+    padding: 15px 20px;
 }
 
 
@@ -50,8 +51,10 @@ footer {
     border-bottom: 5px;
     margin: 0;
     margin-top: auto;
-    padding: 1px;
+
     font-style:italic;
+    height: 60px;
+    padding: 15px 20px;
 }
 
 footer img {
@@ -109,6 +112,7 @@ header h1 {
 .laatikot {
     display: flex;
     gap: 20px;
+    transform: scale(0.7);
 }
 
 
