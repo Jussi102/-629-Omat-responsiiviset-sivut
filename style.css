@@ -123,6 +123,10 @@ display: flex;
 flex-direction: column;
 transition: 1s;
 }
+.laatikko1:hover {
+    height: 250px;
+    transition: 1s;
+}
 
 .laatikko2 {
 margin-top: 20px;
